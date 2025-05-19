@@ -1,4 +1,4 @@
-# legendary-octo-carnival
+#SenseRoute
 A Smart AI-Powered Virtual Assistant for Visually Impaired
 Project Name: SenseRoute – AI-Powered Assistive Personal Assistant
 
