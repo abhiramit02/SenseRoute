@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: lightsteelblue;
+  width: 100%;
+  height: 100%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+audio {
+  display: none;
+}
+
+.title {
+  height: 5%;
+  text-shadow: 3px 3px 2px #a360a2;
+  text-align: center;
+  color: black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.intro {
+  font-family: Verdana;
+  font-size: larger;
+  color: black;
+  text-align: center;
+  padding: 0 10% 2% 10%;
+}
+
+#intro {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px #000;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  /* flex: 50%;
+  width: 100%;
+  height: 100%;
+  height: 0; */
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+
+#buttons {
+  display: none;
+  /* width: 90%; */
+}
+
+a {
+  background-color: rgb(75, 156, 211);
+  /* Green */
+  border: 4px solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  /* cursor: pointer; */
+  display: block;
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a p {
+  margin: 0 auto;
+  font-size: 30px;
+  /* line-height: 100px; */
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1250px) {
+  a {
+    width: 150px;
+    height: 75px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 10%;
+  /* grid-row-gap: 50px; */
+}
+
+.horizontal-button {
+  /* display: inline-block; */
+  margin: 0 auto;
+}
+
+#other-grid-container {
+  display: grid;
+  /* padding-top: 0%; */
+  grid-template-columns: auto auto auto;
+  /* grid-row-gap: 50px; */
+}
+
+.vertical-center {
+  margin: 0;
+  /* position: absolute; */
+  /* top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+#level {
+  text-align: center;
+  font-size: 2em;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  padding: 4px;
+  background-color: rgb(75, 156, 211);
+  border: 2px solid black;
+}
+
+#startGameBtn {
+  width: 300px;
+  height: 150px;
+}
