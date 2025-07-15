@@ -1,4 +1,4 @@
-<img width="990" height="495" alt="image" src="https://github.com/user-attachments/assets/2450eeea-7c63-4678-8be7-164f9c2b8709" /># 🧠 SenseRoute – AI-Powered Assistant for the Visually Impaired
+# 🧠 SenseRoute – AI-Powered Assistant for the Visually Impaired
 
 **SenseRoute** is a smart, assistive virtual assistant built for the visually impaired, providing real-time environmental awareness, object recognition, voice interaction, and emergency alerting. It empowers users to navigate the world more independently and safely using AI and speech technologies.
 
@@ -51,46 +51,40 @@ SenseRoute/
 ├── README.md
 └── .gitignore
 
-## **Maze Game – For Visually Impaired Users**
-![WhatsApp Image 2025-07-15 at 09 18 32_44a3c9ae](https://github.com/user-attachments/assets/0161feea-e978-4fed-bcc7-67e4deff41a3)
+## 🧩 Maze Game – For Visually Impaired Users
 
-**🔍 What It Does**
+<img src="https://github.com/user-attachments/assets/2450eeea-7c63-4678-8be7-164f9c2b8709" width="800"/>
+
+
+**🔍 What It Does**  
 This blind-accessible maze game empowers visually impaired users to explore and solve mazes using audio feedback and keyboard navigation.
 
 **🎧 Core Features**
-✅ Spatial Audio Guidance:
 
-As the player (represented by a girl) gets closer to the goal (home), the volume of the goal sound increases.
+✅ **Spatial Audio Guidance**  
+- As the player (represented by a girl) gets closer to the goal (home), the volume of the goal sound increases.  
+- If the player hits a wall, a sound is played from the direction of the wall, helping them understand spatial layout.
 
-If the player hits a wall, a sound is played from the direction of the wall, helping them understand spatial layout.
+✅ **Keyboard-Based Navigation**  
+- Use **Shift** to cycle through directions (↑ ↓ ← →).  
+- Press **Enter** to confirm a move.  
+- No mouse or screen interaction required.
 
-✅ Keyboard-Based Navigation:
+✅ **Maze Generation**  
+- Mazes are dynamically created using a **depth-first search** algorithm.  
+- Ensures random, solvable mazes each time.
 
-Use Shift to cycle through directions (↑ ↓ ← →).
+✅ **Level Progression**  
+- 4 levels of increasing difficulty.  
+- Complete 3 mazes per level to unlock the next stage (12 total).
 
-Press Enter to confirm a move.
+✅ **Replayability**  
+- Generate a new maze at any time.  
+- Revisit earlier levels to improve skills.
 
-No mouse or screen interaction required.
+**🎯 Goal**  
+Help visually impaired users reach the destination (🏠) using **audio cues and a keyboard interface**. Each maze boosts confidence, spatial reasoning, and fun!
 
-✅ Maze Generation:
 
-New mazes are created using a depth-first search recursive algorithm.
-
-This ensures random, solvable mazes each time.
-
-✅ Level Progression:
-
-The game has 4 levels with increasing difficulty.
-
-Players must complete 3 mazes per level to unlock the next stage (12 mazes total).
-
-✅ Replayability:
-
-Click on New Maze at any time to generate a fresh challenge for the current level.
-
-Previous Level allows replaying simpler levels.
-
-**🎯 Goal**
-Help the visually impaired user reach the destination (the house) using only audio cues and a simple keyboard interface. Each maze completed boosts confidence, spatial skills, and fun!
 
 
