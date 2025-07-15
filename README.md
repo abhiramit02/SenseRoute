@@ -50,6 +50,7 @@ SenseRoute/
 ├── token.json              # (ignored) Gmail API token
 ├── README.md
 └── .gitignore
+
 ---
 
 ## 🧩 Maze Game – For Visually Impaired Users
