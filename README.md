@@ -52,21 +52,7 @@
 
 ---
 
-## 📂 Folder Structure
-
-bash
-SenseRoute/
-├── frontend/                # React UI
-├── assistant-backend/      # Python Flask backend
-│   ├── object_detection/   # YOLOv8 integration
-│   ├── ocr_module/         # Tesseract OCR logic
-│   ├── email_service/      # Gmail API handling
-│   └── news_module/        # Location-based news reader
-├── .spyder-py3/            # Local config (ignored in Git)
-├── credentials.json        # (ignored) Google OAuth credentials
-├── token.json              # (ignored) Gmail API token
-├── README.md
-└── .gitignore
+<pre> ## 📂 Folder Structure ``` SenseRoute/ ├── frontend/ # React UI ├── assistant-backend/ # Python Flask backend │ ├── object_detection/ # YOLOv8 integration │ ├── ocr_module/ # Tesseract OCR logic │ ├── email_service/ # Gmail API handling │ └── news_module/ # Location-based news reader ├── .spyder-py3/ # Local config (ignored in Git) ├── credentials.json # (ignored) Google OAuth credentials ├── token.json # (ignored) Gmail API token ├── README.md # Project documentation └── .gitignore # Git ignore rules ``` </pre>
 
 
 ---
