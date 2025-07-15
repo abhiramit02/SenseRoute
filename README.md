@@ -55,7 +55,7 @@ SenseRoute/
 ## 🧩 Maze Game – For Visually Impaired Users
 
 
-![Maze Game Screenshot](images/image.png.jpg)
+![Maze Game Screenshot](maze-game-screenshot.jpg)
 
 
 This blind-accessible maze game empowers visually impaired users...
