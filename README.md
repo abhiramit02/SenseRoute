@@ -51,48 +51,53 @@ SenseRoute/
 ├── README.md
 └── .gitignore
 
+
 ---
 
 ## 🧩 Maze Game – For Visually Impaired Users
 
-
 ![Maze Game Screenshot](maze-game-screenshot.jpg)
 
+The **Maze Game** in SenseRoute is a blind-accessible puzzle designed to enhance spatial awareness, problem-solving, and confidence using audio cues and keyboard input.
 
-This blind-accessible maze game empowers visually impaired users...
+---
 
+### 🔍 What It Does
 
+It enables visually impaired users to explore and solve mazes by listening to spatial sound feedback and navigating using keyboard keys — no screen interaction required.
 
+---
 
-
-**🔍 What It Does**  
-This blind-accessible maze game empowers visually impaired users to explore and solve mazes using audio feedback and keyboard navigation.
-
-**🎧 Core Features**
+### 🎧 Core Features
 
 ✅ **Spatial Audio Guidance**  
-- As the player (represented by a girl) gets closer to the goal (home), the volume of the goal sound increases.  
-- If the player hits a wall, a sound is played from the direction of the wall, helping them understand spatial layout.
+- As the player (a girl icon) gets closer to the goal (🏠), the goal sound increases in volume.  
+- When hitting a wall, directional sound cues help users perceive spatial layout.
 
 ✅ **Keyboard-Based Navigation**  
-- Use **Shift** to cycle through directions (↑ ↓ ← →).  
-- Press **Enter** to confirm a move.  
-- No mouse or screen interaction required.
+- Press **Shift** to rotate movement options (↑ ↓ ← →).  
+- Press **Enter** to confirm the selected direction.  
+- Entirely hands-free, screen-free gameplay.
 
 ✅ **Maze Generation**  
-- Mazes are dynamically created using a **depth-first search** algorithm.  
-- Ensures random, solvable mazes each time.
+- Uses a **depth-first search (DFS)** algorithm for maze generation.  
+- Every maze is solvable and uniquely created.
 
 ✅ **Level Progression**  
-- 4 levels of increasing difficulty.  
-- Complete 3 mazes per level to unlock the next stage (12 total).
+- 4 levels of difficulty.  
+- Each level includes 3 mazes (12 total).  
+- Unlock new levels by completing previous ones.
 
 ✅ **Replayability**  
-- Generate a new maze at any time.  
-- Revisit earlier levels to improve skills.
+- Click **“New Maze”** anytime to refresh the layout.  
+- Go back and replay earlier levels to practice.
 
-**🎯 Goal**  
-Help visually impaired users reach the destination (🏠) using **audio cues and a keyboard interface**. Each maze boosts confidence, spatial reasoning, and fun!
+---
+
+### 🎯 Goal
+
+Help the user reach the **destination (home 🏠)** using only **audio guidance** and a **keyboard interface**. Each maze completed builds auditory-motor coordination, spatial reasoning, and personal achievement.
+
 
 
 
