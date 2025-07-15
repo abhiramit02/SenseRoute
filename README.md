@@ -51,13 +51,13 @@ SenseRoute/
 ├── README.md
 └── .gitignore
 
+## **Maze Game – For Visually Impaired Users**
 ![WhatsApp Image 2025-07-15 at 09 18 32_44a3c9ae](https://github.com/user-attachments/assets/0161feea-e978-4fed-bcc7-67e4deff41a3)
 
- **Maze Game – For Visually Impaired Users**
-🔍 What It Does
+**🔍 What It Does**
 This blind-accessible maze game empowers visually impaired users to explore and solve mazes using audio feedback and keyboard navigation.
 
-🎧 Core Features
+**🎧 Core Features**
 ✅ Spatial Audio Guidance:
 
 As the player (represented by a girl) gets closer to the goal (home), the volume of the goal sound increases.
@@ -90,7 +90,7 @@ Click on New Maze at any time to generate a fresh challenge for the current leve
 
 Previous Level allows replaying simpler levels.
 
-🎯 Goal
+**🎯 Goal**
 Help the visually impaired user reach the destination (the house) using only audio cues and a simple keyboard interface. Each maze completed boosts confidence, spatial skills, and fun!
 
 
