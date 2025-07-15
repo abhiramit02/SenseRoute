@@ -1,33 +1,50 @@
 # 🧠 SenseRoute – AI-Powered Assistant for the Visually Impaired
 
-**SenseRoute** is a smart, assistive virtual assistant built for the visually impaired, providing real-time environmental awareness, object recognition, voice interaction, and emergency alerting. It empowers users to navigate the world more independently and safely using AI and speech technologies.
+**SenseRoute** is a smart, assistive virtual assistant designed for the visually impaired. It provides real-time environmental awareness, object recognition, voice interaction, and emergency alerting — empowering users to navigate the world independently and safely using AI and speech technologies.
 
 ---
 
 ## ✨ Key Features
 
-- 🎯 **Object Detection**: Detects and recognizes real-world objects using **YOLOv8** and **OpenCV**.
-- 🗣️ **Text-to-Speech (TTS)**: Converts scene/object data into speech for auditory feedback.
-- 📧 **Emergency Email Alerts**: Sends alerts with detected object descriptions and timestamps to a registered guardian via Gmail API.
-- 🔊 **Voice Command Integration**: Interacts via custom voice commands (e.g., "describe environment", "detect object", etc.).
-- 📰 **Location-Based News Updates**: Reads out the latest news headlines specific to the user's city.
-- 📄 **OCR (Optical Character Recognition)**: Reads and speaks out text from images or captured scenes.
-- 🎮 **Maze Game**: A fun, brain-engaging game to enhance spatial thinking.
-- 📷 **Scene Description**: Captures and summarizes the full scene around the user.
-- 🔒 **Secure & Private**: Sensitive data like API tokens are excluded from the repository.
+- 🎯 **Object Detection**  
+  **Detects and recognizes real-world objects** using **YOLOv8** and **OpenCV**.
+
+- 🗣️ **Text-to-Speech (TTS)**  
+  **Converts scene and object information into speech** for auditory feedback.
+
+- 📧 **Emergency Email Alerts**  
+  **Sends alerts** with object descriptions and timestamps to a guardian via **Gmail API**.
+
+- 🔊 **Voice Command Integration**  
+  **Responds to custom voice commands** like _"describe environment"_, _"detect object"_ etc.
+
+- 📰 **Location-Based News Updates**  
+  **Reads out the latest news headlines** relevant to the user’s city using **NewsAPI**.
+
+- 📄 **OCR (Optical Character Recognition)**  
+  **Reads and speaks text from images** using **Tesseract OCR**.
+
+- 🎮 **Maze Game**  
+  **A fun, brain-engaging game** to improve spatial reasoning and navigation.
+
+- 📷 **Scene Description**  
+  **Captures and summarizes the environment** around the user.
+
+- 🔒 **Secure & Private**  
+  **API keys and tokens are excluded** from the repository for safety.
 
 ---
 
 ## 📦 Tech Stack
 
-- **Frontend**: React.js + Tailwind CSS + ShadCN UI + Framer Motion
-- **Backend**: Python (Flask), Node.js (optional for API handling)
-- **AI & Vision**: YOLOv8, OpenCV, Tesseract OCR
-- **Voice**: gTTS / pyttsx3, SpeechRecognition
+- **Frontend**: React.js, Tailwind CSS, ShadCN UI, Framer Motion  
+- **Backend**: Python (Flask), Node.js *(optional)*  
+- **AI & Vision**: YOLOv8, OpenCV, Tesseract OCR  
+- **Voice Tools**: gTTS / pyttsx3, SpeechRecognition  
 - **APIs Used**:
-  - Gmail API (for alerts)
-  - NewsAPI (for headlines)
-  - OpenWeather API (optional for weather)
+  - **Gmail API** – For sending alerts
+  - **NewsAPI** – For local headlines
+  - **OpenWeather API** *(optional)* – For weather updates  
 - **Other Tools**:
   - GitHub Actions (CI/CD)
   - Google OAuth (secure access)
@@ -37,10 +54,10 @@
 
 ## 📂 Folder Structure
 
-```bash
+\`\`\`bash
 SenseRoute/
 ├── frontend/                # React UI
-├── assistant-backend/      # Python Flask backend
+├── assistant-backend/      # Flask backend
 │   ├── object_detection/   # YOLOv8 integration
 │   ├── ocr_module/         # Tesseract OCR logic
 │   ├── email_service/      # Gmail API handling
@@ -48,57 +65,50 @@ SenseRoute/
 ├── .spyder-py3/            # Local config (ignored in Git)
 ├── credentials.json        # (ignored) Google OAuth credentials
 ├── token.json              # (ignored) Gmail API token
-├── README.md
-└── .gitignore
-
+├── README.md               # Documentation
+└── .gitignore              # Git ignore rules
+\`\`\`
 
 ---
 
 ## 🧩 Maze Game – For Visually Impaired Users
 
-![Maze Game Screenshot](maze-game-screenshot.jpg)
-
-The **Maze Game** in SenseRoute is a blind-accessible puzzle designed to enhance spatial awareness, problem-solving, and confidence using audio cues and keyboard input.
+![Maze Game Screenshot](https://raw.githubusercontent.com/abhiramit02/SenseRoute/c0a02fa3943f532edb2d92781a2cd04a32ea01e1/images/image.jpg)
 
 ---
 
-### 🔍 What It Does
+## 🔍 What It Does
 
-It enables visually impaired users to explore and solve mazes by listening to spatial sound feedback and navigating using keyboard keys — no screen interaction required.
-
----
-
-### 🎧 Core Features
-
-✅ **Spatial Audio Guidance**  
-- As the player (a girl icon) gets closer to the goal (🏠), the goal sound increases in volume.  
-- When hitting a wall, directional sound cues help users perceive spatial layout.
-
-✅ **Keyboard-Based Navigation**  
-- Press **Shift** to rotate movement options (↑ ↓ ← →).  
-- Press **Enter** to confirm the selected direction.  
-- Entirely hands-free, screen-free gameplay.
-
-✅ **Maze Generation**  
-- Uses a **depth-first search (DFS)** algorithm for maze generation.  
-- Every maze is solvable and uniquely created.
-
-✅ **Level Progression**  
-- 4 levels of difficulty.  
-- Each level includes 3 mazes (12 total).  
-- Unlock new levels by completing previous ones.
-
-✅ **Replayability**  
-- Click **“New Maze”** anytime to refresh the layout.  
-- Go back and replay earlier levels to practice.
+**This blind-accessible maze game empowers visually impaired users** to explore and solve mazes using **audio feedback and keyboard navigation**.
 
 ---
 
-### 🎯 Goal
+## 🎧 Core Features
 
-Help the user reach the **destination (home 🏠)** using only **audio guidance** and a **keyboard interface**. Each maze completed builds auditory-motor coordination, spatial reasoning, and personal achievement.
+- ✅ **Spatial Audio Guidance**  
+  - As the player (**👧**) gets closer to the goal (**🏠**), the **volume increases**.  
+  - Bumping into walls triggers **sound effects from the direction of the wall**, aiding spatial understanding.
 
+- ✅ **Keyboard-Based Navigation**  
+  - Press **Shift** to cycle through directions (**↑ ↓ ← →**)  
+  - Press **Enter** to confirm movement  
+  - **No mouse or screen interaction required**
 
+- ✅ **Maze Generation**  
+  - Mazes are generated using a **depth-first search** algorithm  
+  - Ensures **random, solvable mazes** each time
 
+- ✅ **Level Progression**  
+  - **4 levels** of increasing difficulty  
+  - **Complete 3 mazes per level** to unlock the next (12 total)
 
+- ✅ **Replayability**  
+  - **Regenerate mazes anytime**  
+  - **Replay previous levels** to improve skills
 
+---
+
+## 🎯 Goal
+
+**Help visually impaired users reach the destination (🏠)** using **audio cues** and **keyboard controls**.  
+This interactive game boosts **confidence**, **spatial reasoning**, and provides a **fun, skill-building experience**.
