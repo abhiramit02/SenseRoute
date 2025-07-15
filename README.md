@@ -54,8 +54,8 @@ SenseRoute/
 
 ## 🧩 Maze Game – For Visually Impaired Users
 
+![Maze Game Screenshot](maze-game-screenshot.jpg)
 
-![Maze Game Screenshot](Maze%20game%20screenshot.jpg)
 
 
 
