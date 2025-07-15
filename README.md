@@ -54,10 +54,10 @@
 
 ## 📂 Folder Structure
 
-\`\`\`bash
+bash
 SenseRoute/
 ├── frontend/                # React UI
-├── assistant-backend/      # Flask backend
+├── assistant-backend/      # Python Flask backend
 │   ├── object_detection/   # YOLOv8 integration
 │   ├── ocr_module/         # Tesseract OCR logic
 │   ├── email_service/      # Gmail API handling
@@ -65,9 +65,9 @@ SenseRoute/
 ├── .spyder-py3/            # Local config (ignored in Git)
 ├── credentials.json        # (ignored) Google OAuth credentials
 ├── token.json              # (ignored) Gmail API token
-├── README.md               # Documentation
-└── .gitignore              # Git ignore rules
-\`\`\`
+├── README.md
+└── .gitignore
+
 
 ---
 
