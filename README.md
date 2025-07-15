@@ -92,8 +92,9 @@ SenseRoute/
   - Bumping into walls triggers **sound effects from the direction of the wall**, aiding spatial understanding.
 
 - ✅ **Keyboard-Based Navigation**  
-  - Press **Shift** to cycle through directions (**↑ ↓ ← →**)  
-  - Press **Enter** to confirm movement  
+  - Press **Shift** for Previous Level
+  - Movement press (**↑ ↓ ← →**)  
+  - Press **Enter** to New Maze 
   - **No mouse or screen interaction required**
 
 - ✅ **Maze Generation**  
